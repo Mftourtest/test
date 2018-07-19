@@ -1,0 +1,241 @@
+*{margin: 0;padding: 0;font-family: '微软雅黑';}
+html,body{font-size: 100px;height: 100%;}
+img{vertical-align:middle;}
+ul li{list-style: none;}
+a{text-align: center;}
+.head{
+	height: 12%;
+}
+
+.head-top{
+	text-align: center;
+	height: 60%;
+	line-height: 5rem;
+	font-size: 1.6rem;
+	background: #252C36;
+	color: #EEE;
+}
+.search{
+	height: 40%;
+}
+.head .back{
+	display: inline-block;
+	position: absolute;
+	left: 1rem;
+	top: 1.5rem;
+	font-size: 2rem;
+	color: #EEE;
+}
+.head-search{
+	left: 0;
+}
+.head-search-box{
+	text-align: center;
+}
+.body{
+	height: 88%;
+	
+}
+.body-left{
+	width: 30%;
+	float: left;
+	text-align: center;
+	height: 100%;
+	overflow-y:scroll;
+}
+.body-left ul li{
+	height: 3rem;
+	line-height: 3rem;
+	/*border-bottom: 0.1rem solid #8888;*/
+	border-image: url("../img/line1.png") repeat;
+}
+.aa{
+	width: 100%;
+	height: 1px; 
+	background: -moz-linear-gradient(top, #eee, rgba(255, 255, 255, 0));  
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#eee), to(rgba(255, 255, 255, 0)));  
+	background: -o-linear-gradient(top, #eee, rgba(255, 255, 255, 0)); 
+	background: linear-gradient(to bottom, #eee, rgba(255, 255, 255, 0)); 
+}
+.select{
+	background: #FFA011;
+	color: #000;
+}
+.body-right{
+	width: 70%;
+	float: right;
+	border-left: 0.1rem solid #888;
+	height: 100%;
+	overflow-y:scroll;
+}
+.body-right .tab li{
+	min-height: 5rem;
+	border-bottom: 0.1rem solid #888;
+	position: relative;
+}
+.price{
+	height: 100%;
+	width: 70%;
+
+}
+.price span{
+	word-break:break-all;
+	padding-left: 5%;
+	/*margin-left: 10%;*/
+}
+.price a{
+	position: absolute;
+	right: 5%;
+	top:40%;
+}
+ .on{
+	display: block;
+}
+.active{
+	display: none;
+} 
+.middle-photo{
+	width: 100%;
+	height: 11rem;
+	position:relative;
+}
+.middle-photo-box{
+	width: 8rem;
+	height: 8rem;
+	margin: 0 auto;
+	border: 0.1rem solid #8888;
+	  position:relative;
+    
+}
+.middle-photo-box .pic{
+	/*display: inline-block;
+	background: url(../img/tiger.jpg) no-repeat;
+	background-size: 7.7rem 7.7rem;*/
+}
+/*.middle-photo-box .pic input{
+	display: inline-block;
+	width: 8rem;
+	height: 8rem;
+	opacity: 0;
+	z-index: 99;
+}*/
+.middle-photo-box .del{
+	height: 3rem;
+	width: 3rem;
+	display: inline-block;
+	background:url('../img/x.ico') no-repeat ;
+	position: absolute;
+	right: -2.5rem;
+	top:-0.5rem;
+}
+.line{
+	height: 3.4rem;
+
+}
+.left{
+	margin-left: 5%;
+}
+.right{
+	text-align: center;
+	display: inline-block;
+	width: 10rem;
+	position: absolute;
+	right: 0;
+	border:none;
+}
+.delete{
+	display: block;
+	width: 90%;
+	height: 3.3rem;
+	background: #ff9900;
+	margin-left: 5%;
+	text-align: center;
+	line-height: 3.3rem;
+	color: #000;
+	border:none;
+}
+.middle-photo-box img{
+	width: 7.8rem;
+	height: 7.8rem;
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+	z-index: 3;
+}
+.choose{
+	font-weight: bold;
+	height: 5rem;
+	text-align: center;
+	line-height: 5rem;
+	font-size: 1.5rem;
+	
+}
+.classify{
+	margin-left: 5%;
+}
+.cooking{
+	display: block;
+	margin: 5% auto;
+	background: #DDDDDD;
+	width: 50%;
+}
+.new{
+	width: 95%；
+	margin:0 auto;
+	display: block;
+	height: 3rem;
+	background: #ff9900;
+	text-align: center;
+	line-height: 3rem;
+	color: #000;
+}
+.upload{
+	display: inline-block;
+	width: 8rem;
+	height: 8rem;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.nav .back{
+	display: inline-block;
+	position: absolute;
+	left: 1rem;
+	top: 1.5rem;
+	font-size: 2rem;
+	color: #EEE;
+}
+.body_input{
+	height: 76%;
+	
+}
+.body_input_name{
+	width: 70%;
+	height: 30%;
+	margin: 20% auto;
+	text-align: center;
+}
+.body_input_name input{
+	width: 70%;
+	height: 20%;
+	border: 0.1rem solid #888;
+	margin-top: 2%;
+}
+.body_input_name span{
+	display: block;
+	margin-top: 5%;
+}
+
+.foot input{
+	display: block;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 8%;
+	border: none;
+	background: #252C36; 
+	color: #EEE;
+}
+
+
